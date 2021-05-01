@@ -14,4 +14,4 @@ RUN pip3 install -r requirements.txt
 COPY src/ ./src
 COPY streamlit-config.toml /root/.streamlit/config.toml
 
-CMD streamlit run ./src/generator.py --server.port $PORT
+CMD streamlit run ./src/generator.py
